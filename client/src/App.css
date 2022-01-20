@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  list-style: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+list-incomplete,
+.list-complete {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.todo-item {
+  color: white;
+  padding: .5rem;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, royalblue, rgb(5, 34, 160));
+  /* border: 2px solid rgba(18, 72, 233, 0.801); */
+  width: fit-content;
+}
+
+
+
